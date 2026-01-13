@@ -17,8 +17,11 @@
    - **Username**: Your database username
    - **Password**: Your database password
    - **Connection Type**: `Cloud Wallet`
-   - **Configuration File**: Browse to `Wallet_clinicaldb23ai` folder
-   - **Service**: Select appropriate service (high/medium/low)
+   - **Configuration File**: Browse to `/Users/tomtolleson/oracle-clinical-trial-data-mgmt-on-oci/Wallet_clinicaldb23ai`
+   - **Service**: Select one of:
+     - `clinicaldb23ai_high` (high performance)
+     - `clinicaldb23ai_medium` ⭐ (recommended)
+     - `clinicaldb23ai_low` (low priority)
 4. Click **Test** to verify connection
 5. Click **Save** and **Connect**
 
