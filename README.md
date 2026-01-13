@@ -17,7 +17,7 @@ Implementation of a cloud solution on Oracle Cloud Infrastructure (OCI) to suppo
 
 ### Joined Clinical Query
 
-![Join: Study, Subject, Visit, Labs](screenshots/Joined_Query.png)
+![Joined Clinical Query](screenshots/Joined_Query.png)
 
 ### Out-of-Range Lab Results
 
