@@ -25,7 +25,7 @@ Implementation of a cloud solution on Oracle Cloud Infrastructure (OCI) to suppo
 
 ## Project Management
 
-This repository is managed using a GitHub Project board (Kanban):
+This repository is managed using a [GitHub Project board (Kanban)](https://github.com/TomTolleson/oracle-clinical-trial-data-mgmt-on-oci/projects):
 
 - Columns: Backlog → In Progress → In Review → Done
 - Work items: requirements definition, OCI setup, data modeling, test queries, documentation
