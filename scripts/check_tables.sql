@@ -36,7 +36,8 @@ SELECT
     b.table_name AS parent_table,
     LISTAGG(ac.column_name, ', ') WITHIN GROUP (ORDER BY ac.position) AS fk_columns
 FROM user_constraints a
-JOIN user_constraints b ON a.r_constraint_name = b.constraint_name
+JOIN user_constraints b ON a.r_constraint_name = b.constraint_name 
+    AND a.r_owner = b.owner
 LEFT JOIN user_cons_columns ac ON a.constraint_name = ac.constraint_name
 WHERE a.constraint_type = 'R'
 GROUP BY a.table_name, a.constraint_name, b.table_name
