@@ -22,3 +22,12 @@ Implementation of a cloud solution on Oracle Cloud Infrastructure (OCI) to suppo
 ### Out-of-Range Lab Results
 
 ![Out-of-Range Labs](screenshots/OutOfRangeLabs.png)
+
+## Project Management
+
+This repository is managed using a GitHub Project board (Kanban):
+
+- Columns: Backlog → In Progress → In Review → Done
+- Work items: requirements definition, OCI setup, data modeling, test queries, documentation
+
+The board demonstrates how Oracle Cloud implementation work can be broken into epics and tracked through to completion, similar to enterprise Oracle Cloud project delivery practices.
